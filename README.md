@@ -2,7 +2,7 @@
 
 Olá a todos! Sou eu, Mário Coxe, e estou emocionado em lhes dar as boas-vindas ao **NEWSLATTER**, o seu portal para as últimas e mais empolgantes novidades no mundo da tecnologia e ciência! Se você é como eu, apaixonado por avanços tecnológicos e fascinado pela pesquisa científica, ou mesmo se só quer ficar por dentro das tendências mais quentes, você está no lugar certo.
 
-![NEWSLATTER Banner](link_para_imagem_banner.jpg)
+![NEWSLATTER Banner](https://github.com/Mario-Coxe/Newsletter/blob/main/images/newslatter.jpg)
 
 ## Sobre Nós
 
