@@ -10,6 +10,4 @@ if (mysqli_connect_errno())
  echo "Failed to connect to MySQL: " . mysqli_connect_error();
 }
 ?>
-<!--  Author Name: Mayuri K. 
- for any PHP, Codeignitor, Laravel OR Python work contact me at mayuri.infospace@gmail.com  
- Visit website : www.mayurik.com -->  
+
