@@ -3,11 +3,11 @@
 <!-- <h4 class="widget-title mb-5">Don't <span>Miss</span></h4> -->
 
    <div class="card mb-4 border-0">
-      <h5 class="card-header border-0 bg-white">Search</h5>
+      <h5 class="card-header border-0 bg-white">Procurar</h5>
       <div class="card-body">
          <form name="search" action="search.php" method="post">
             <div class="input-group">
-               <input type="text" name="searchtitle" class="form-control rounded-0" placeholder="Search for..." required>
+               <input type="text" name="searchtitle" class="form-control rounded-0" placeholder="Pesquisar por..." required>
                <span class="input-group-btn">
                <button class="btn btn-secondary rounded-0" type="submit"><i class="fa fa-search"></i></button>
                </span>
@@ -18,7 +18,7 @@
    
    <!-- Side Widget -->
    <div class="card my-4 border-0">
-      <h5 class="card-header border-0 bg-white">Recent News</h5>
+      <h5 class="card-header border-0 bg-white">Notícias recentes</h5>
       <div class="card-body">
          <ul class="mb-0 list-unstyled">
             <?php
@@ -27,7 +27,7 @@
                
                ?>
             <li class="d-flex mb-2 align-items-center">
-               <img class="mr-2 rounded-circle" src="admin/postimages/<?php echo htmlentities($row['PostImage']);?>" alt="<?php echo htmlentities($row['posttitle']);?>" width="50px" height="50px">
+               <img class="mr-2 rounded-circle" src="0/postimages/<?php echo htmlentities($row['PostImage']);?>" alt="<?php echo htmlentities($row['posttitle']);?>" width="50px" height="50px">
                <a href="news-details.php?nid=<?php echo htmlentities($row['pid'])?>" class="text-dark font-weight-bold"><?php echo htmlentities($row['posttitle']);?></a>
             </li>
             <?php } ?>
@@ -36,7 +36,7 @@
    </div>
    <!-- Side Widget -->
    <div class="card my-4 border-0">
-      <h5 class="card-header border-0 bg-white">Popular  News</h5>
+      <h5 class="card-header border-0 bg-white">Notícias populares</h5>
       <div class="card-body">
          <ul class="list-unstyled">
             <?php
@@ -52,8 +52,8 @@
       </div>
    </div>
    <!-- Side Widget -->
-   <div class="card my-4 border-0">
-      <h5 class="card-header border-0 bg-white">Top Trending</h5>
+   <!-- <div class="card my-4 border-0">
+      <h5 class="card-header border-0 bg-white">Principais tendências</h5>
       <div class="card-body">
          <ul class="mb-0 list-unstyled">
             <?php
@@ -62,14 +62,14 @@
                
                ?>
             <li class="d-flex mb-2 align-items-center">
-               <img class="mr-2 rounded" src="admin/postimages/<?php echo htmlentities($row['PostImage']);?>" alt="<?php echo htmlentities($row['posttitle']);?>" width="50px" height="50px">
+               <img class="mr-2 rounded" src="0/postimages/<?php echo htmlentities($row['PostImage']);?>" alt="<?php echo htmlentities($row['posttitle']);?>" width="50px" height="50px">
                <a href="news-details.php?nid=<?php echo htmlentities($row['pid'])?>" class="text-dark font-weight-bold"><?php echo htmlentities($row['posttitle']);?></a>
             </li>
             <?php } ?>
          </ul>
       </div>
-   </div>
-   <h5 class="card-header border-0 bg-transparent">Most Popular</h5>
+   </div> -->
+   <!-- <h5 class="card-header border-0 bg-transparent">Most Popular</h5>
    <div class="card my-4 border-0">
       <div class="card-body p-2">
         <iframe width="100%" height="180px" class="youtube" src="https://www.youtube.com/embed/cuePLPooM80" title="Sample Videos / Dummy Videos For Demo Use" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -94,5 +94,5 @@
       <div class="card-body p-2">
         <iframe width="100%" height="180px" class="youtube" src="https://www.youtube.com/embed/gz73OAg2Tr0" title="Sample Videos / Dummy Videos For Demo Use" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
-   </div>
+   </div> -->
 </div>

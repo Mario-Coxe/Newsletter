@@ -10,18 +10,18 @@
                <a class="nav-link" href="index.php"><i class="fa fa-home"></i> Home</a>
             </li>
             <li class="nav-item">
-               <a class="nav-link" href="about-us.php"><i class="fa fa-info-circle"></i> About</a>
+               <a class="nav-link" href="about-us.php"><i class="fa fa-info-circle"></i> Sobre</a>
             </li>
             <li class="nav-item">
                <a class="nav-link" href="index.php"><i class="fa-newspaper-o fa"></i> News</a>
             </li>
             <li class="nav-item">
-               <a class="nav-link" href="contact-us.php"><i class="fa fa-phone"></i> Contact us</a>
+               <a class="nav-link" href="contact-us.php"><i class="fa fa-phone"></i> Contacto</a>
             </li>
          </ul>
       </div>
-      <div>
+      <!-- <div>
          <div id="google_translate_element"></div>
-      </div>
+      </div> -->
    </div>
 </nav>
