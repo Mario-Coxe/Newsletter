@@ -1,19 +1,12 @@
 
-                <footer class="footer text-center">
-                   <!-- <?php echo date('Y');?> © Developed by. -->
-                   Footer
-                </footer>
-                </div>
       </div>
       <!-- END wrapper -->
     <script>
          var resizefunc = [];
       </script>
       <!-- jQuery  -->
-<!--  Author Name: Mayuri K. 
- for any PHP, Codeignitor, Laravel OR Python work contact me at mayuri.infospace@gmail.com  
- Visit website : www.mayurik.com -->  
-      <script src="assets/js/jquery.min.js"></script>
+
+      <!-- <script src="assets/js/jquery.min.js"></script> -->
       <script src="assets/js/bootstrap.min.js"></script>
       <script src="assets/js/detect.js"></script>
       <script src="assets/js/fastclick.js"></script>

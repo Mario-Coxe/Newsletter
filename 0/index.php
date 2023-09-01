@@ -35,7 +35,7 @@ echo "<script>alert('Invalid Details');</script>";
 
 
         <!-- App title -->
-        <title>101 + News Station Portal | Admin Panel</title>
+        <title>404</title>
 
         <!-- App css -->
         <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
@@ -57,9 +57,9 @@ echo "<script>alert('Invalid Details');</script>";
         <section>
             <div class="container m-t-50">
                 <div class="row align-items-center m-t-50">
-                    <div class="col-md-8 text-center">
+                    <!-- <div class="col-md-8 text-center">
                         <img src="assets/images/blog-reading.png" width="auto">
-                    </div>
+                    </div> -->
                     <div class="col-md-4 ">
 
                         <div class="wrapper-page">
@@ -89,9 +89,6 @@ echo "<script>alert('Invalid Details');</script>";
                                                 <input class="form-control" type="password" name="password" required="" placeholder="Password" autocomplete="off">
                                             </div>
                                         </div>
-
-
-                     
                                         <div class="form-group account-btn text-center m-t-10">
                                             <div class="col-xs-12">
                                                 <button class="btn btn-custom waves-effect waves-light btn-md w-100" type="submit" name="login">Log In</button>
@@ -105,13 +102,8 @@ echo "<script>alert('Invalid Details');</script>";
                             </div>
                             </div>
                             <!-- end card-box-->
-
-
-                    
-
                         </div>
-                        <!-- end wrapper -->
-
+                        <!-- end wrapper --
                     </div>
                 </div>
             </div>
@@ -121,9 +113,7 @@ echo "<script>alert('Invalid Details');</script>";
         <script>
             var resizefunc = [];
         </script>
-
-        <!-- jQuery  -->
-        <script src="assets/js/jquery.min.js"></script>
+        <!-- <script src="assets/js/jquery.min.js"></script> -->
         <script src="assets/js/bootstrap.min.js"></script>
         <script src="assets/js/detect.js"></script>
         <script src="assets/js/fastclick.js"></script>
@@ -133,8 +123,8 @@ echo "<script>alert('Invalid Details');</script>";
         <script src="assets/js/jquery.scrollTo.min.js"></script>
 
         <!-- App js -->
-        <script src="assets/js/jquery.core.js"></script>
-        <script src="assets/js/jquery.app.js"></script>
+        <!-- <script src="assets/js/jquery.core.js"></script>
+        <script src="assets/js/jquery.app.js"></script> -->
 
     </body>
 </html>
